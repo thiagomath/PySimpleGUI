@@ -8,8 +8,10 @@ layout = [
     [sg.Checkbox('Salvar o login?')],
     [sg.Button('Entrar')]
 ]
+
 #Janela
 janela = sg.Window('Tela de Login', layout)
+
 #Ler os eventos
 while True:
     eventos, valores = janela.read()
